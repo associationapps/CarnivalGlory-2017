@@ -38,10 +38,12 @@
       ]
     },
     "versionFirst": "4.7.1",
-    "uniqCompNum": 25,
+    "uniqCompNum": 28,
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -92,6 +94,37 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:4px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:4px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": "4",
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#000080"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-p"
         },
         {
           "hrColor": "border-color:#ffffff;",
@@ -569,16 +602,16 @@
           "_params": {}
         },
         {
-          "hrColor": "border-color:#ffffff;",
-          "hrThickness": "border-top-width:3px;",
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:4px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
           "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ffffff;border-style:solid;border-top-width:3px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:4px;",
           "_params": {
-            "hrColor": "#ffffff",
-            "hrThickness": "3",
+            "hrColor": "#ff0000",
+            "hrThickness": "4",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
@@ -598,6 +631,37 @@
           ],
           "_name": "hrblock-block",
           "_anchor": "hrblock-block-l"
+        },
+        {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:3px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:3px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": 3,
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#000080"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-q"
         },
         {
           "_styles": {
@@ -633,6 +697,37 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:4px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:4px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": "4",
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#000080"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-r"
         },
         {
           "hrColor": "border-color:#ffffff;",

@@ -1394,6 +1394,9 @@ body {
     width: 100% !important;
   }
 }
+#hrblock-block-p hr {
+  margin: 0;
+}
 #hrblock-block-m hr {
   margin: 0;
 }
@@ -1810,6 +1813,9 @@ body {
 #hrblock-block-l hr {
   margin: 0;
 }
+#hrblock-block-q hr {
+  margin: 0;
+}
 .cid-qP92YozSoh {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1829,6 +1835,9 @@ body {
 .cid-qP92YozSoh .mbr-author-desc {
   color: #ffffff;
   text-align: center;
+}
+#hrblock-block-r hr {
+  margin: 0;
 }
 #hrblock-block-n hr {
   margin: 0;
@@ -2460,7 +2469,7 @@ body {
 }
 .cid-qP5ZnV4HOn .nav-link:hover,
 .cid-qP5ZnV4HOn .dropdown-item:hover {
-  color: #ff0000 !important;
+  color: #008000 !important;
 }
 .cid-qPfYKAQdOk {
   padding-top: 45px;
