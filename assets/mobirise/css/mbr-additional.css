@@ -1805,7 +1805,7 @@ body {
 }
 .cid-qP5ZnV4HOn .nav-link:hover,
 .cid-qP5ZnV4HOn .dropdown-item:hover {
-  color: #008000 !important;
+  color: #ff0000 !important;
 }
 #hrblock-block-l hr {
   margin: 0;
@@ -2069,6 +2069,9 @@ body {
 }
 .cid-qP98WdGs5Y .mbr-overlay ~ .container-slide {
   z-index: auto;
+}
+#hrblock-block-o hr {
+  margin: 0;
 }
 .cid-qP5ZnV4HOn .navbar {
   padding: .5rem 0;
@@ -2457,7 +2460,7 @@ body {
 }
 .cid-qP5ZnV4HOn .nav-link:hover,
 .cid-qP5ZnV4HOn .dropdown-item:hover {
-  color: #008000 !important;
+  color: #ff0000 !important;
 }
 .cid-qPfYKAQdOk {
   padding-top: 45px;
