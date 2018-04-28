@@ -1836,6 +1836,9 @@ body {
   color: #ffffff;
   text-align: right;
 }
+#hrblock-block-r hr {
+  margin: 0;
+}
 #hrblock-block-n hr {
   margin: 0;
 }
@@ -1918,6 +1921,9 @@ body {
   padding-bottom: 0px;
   background-color: #000080;
 }
+#hrblock-block-1b hr {
+  margin: 0;
+}
 .cid-qPZUfQ40OJ {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1978,7 +1984,7 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
-#hrblock-block-1g hr {
+#hrblock-block-1a hr {
   margin: 0;
 }
 .cid-qQ5qsHoN40 {
@@ -2048,7 +2054,7 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
-#hrblock-block-1f hr {
+#hrblock-block-o hr {
   margin: 0;
 }
 .cid-qQtGxD7F2I {
@@ -2134,9 +2140,6 @@ body {
 }
 .cid-qQtGH38Zky .card-title {
   color: #ff0000;
-}
-#hrblock-block-1e hr {
-  margin: 0;
 }
 .cid-qP5ZnV4HOn .navbar {
   padding: .5rem 0;
