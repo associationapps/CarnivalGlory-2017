@@ -1986,37 +1986,6 @@
           "_anchor": "hrblock-block-o"
         },
         {
-          "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:6px;",
-          "hrFullWidth": "min-width:100%;",
-          "hrWidth": "width:100%;",
-          "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:6px;",
-          "_params": {
-            "hrColor": "#ff0000",
-            "hrThickness": "6",
-            "hrFullWidth": true,
-            "hrWidth": 100,
-            "hrStyleSolid": true,
-            "hrStyleDotted": false,
-            "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
-            "bgColor": "#000080"
-          },
-          "_styles": {
-            "hr": {
-              "margin": "0"
-            }
-          },
-          "alias": "hrblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "hrblock-block",
-          "_anchor": "hrblock-block-1k"
-        },
-        {
           "_params": {
             "nbAccordion": 3,
             "showTitle": true,
@@ -2036,7 +2005,7 @@
                 "href": "#collapse1",
                 "active": true,
                 "title": "<span class=\"mbrib-user mbr-iconfont\" style=\"font-size: 35px; color: rgb(255, 0, 0);\"></span>&nbsp;President",
-                "text": "<b>Bob Smith</b><br><b>Phone 407-927-5207</b><br><b>email <a href=\"mailto:associationapps@gmail.com\"><b>associationapps@gmail.com</b></a></b>"
+                "text": "<b>Bob Smith</b><br><b>Phone<a href=\"tel:1-407--927-9208\"> 407-927-5207</a></b><br><b>email <a href=\"mailto:associationapps@gmail.com\"><b>associationapps@gmail.com</b></a></b>"
               },
               {
                 "heading": "heading2",
