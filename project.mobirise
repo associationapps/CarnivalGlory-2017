@@ -38,7 +38,7 @@
       ]
     },
     "versionFirst": "4.7.1",
-    "uniqCompNum": 57,
+    "uniqCompNum": 64,
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1987,7 +1987,7 @@
         },
         {
           "_params": {
-            "nbAccordion": 3,
+            "nbAccordion": "3",
             "showTitle": true,
             "paddingTop": "0",
             "paddingBottom": "0",
@@ -2012,20 +2012,236 @@
                 "collapse": "collapse2",
                 "href": "#collapse2",
                 "active": true,
-                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 2",
-                "text": "<div class=\"mbri-responsive mbr-iconfont\" style=\"font-size: 44px;\"> </div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+                "title": "<span class=\"mbrib-user2 mbr-iconfont\" style=\"font-size: 35px; color: rgb(255, 0, 0);\"></span>&nbsp;Vice-President",
+                "text": "<div class=\"mbri-responsive mbr-iconfont\" style=\"font-size: 44px;\"> </div><b>Mary Brown</b><br><b>Phone </b>407-927-5207<br><b>Email <a href=\"mailto:associationapps@gmail.com\">associationapps@gmail.com</a></b>"
               },
               {
                 "heading": "heading3",
                 "collapse": "collapse3",
                 "href": "#collapse3",
                 "active": true,
-                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 3",
-                "text": "<div class=\"mbri-responsive mbr-iconfont\" style=\"font-size: 44px;\"> </div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+                "title": "Secretary / Treasurer",
+                "text": "<span class=\"socicon socicon-zynga mbr-iconfont\" style=\"font-size: 35px; color: rgb(255, 0, 0);\"></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading4",
+                "collapse": "collapse4",
+                "href": "#collapse4",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 4",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading5",
+                "collapse": "collapse5",
+                "href": "#collapse5",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 5",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading6",
+                "collapse": "collapse6",
+                "href": "#collapse6",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 6",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading7",
+                "collapse": "collapse7",
+                "href": "#collapse7",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 7",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading8",
+                "collapse": "collapse8",
+                "href": "#collapse8",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 8",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading9",
+                "collapse": "collapse9",
+                "href": "#collapse9",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 9",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading10",
+                "collapse": "collapse10",
+                "href": "#collapse10",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 10",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading11",
+                "collapse": "collapse11",
+                "href": "#collapse11",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 11",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading12",
+                "collapse": "collapse12",
+                "href": "#collapse12",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 12",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading13",
+                "collapse": "collapse13",
+                "href": "#collapse13",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 13",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading14",
+                "collapse": "collapse14",
+                "href": "#collapse14",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 14",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading15",
+                "collapse": "collapse15",
+                "href": "#collapse15",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 15",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading16",
+                "collapse": "collapse16",
+                "href": "#collapse16",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 16",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading17",
+                "collapse": "collapse17",
+                "href": "#collapse17",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 17",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading18",
+                "collapse": "collapse18",
+                "href": "#collapse18",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 18",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading19",
+                "collapse": "collapse19",
+                "href": "#collapse19",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 19",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading20",
+                "collapse": "collapse20",
+                "href": "#collapse20",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 20",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading21",
+                "collapse": "collapse21",
+                "href": "#collapse21",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 21",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading22",
+                "collapse": "collapse22",
+                "href": "#collapse22",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 22",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading23",
+                "collapse": "collapse23",
+                "href": "#collapse23",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 23",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading24",
+                "collapse": "collapse24",
+                "href": "#collapse24",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 24",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading25",
+                "collapse": "collapse25",
+                "href": "#collapse25",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 25",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading26",
+                "collapse": "collapse26",
+                "href": "#collapse26",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 26",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading27",
+                "collapse": "collapse27",
+                "href": "#collapse27",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 27",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading28",
+                "collapse": "collapse28",
+                "href": "#collapse28",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 28",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading29",
+                "collapse": "collapse29",
+                "href": "#collapse29",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 29",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
+              },
+              {
+                "active": false,
+                "heading": "heading30",
+                "collapse": "collapse30",
+                "href": "#collapse30",
+                "title": "<span class=\"socicon socicon-angellist mbr-iconfont\" style=\"font-size: 24px;\"></span> Accordion 30",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis."
               }
             ]
           },
-          "title": "Board of Directors",
+          "title": "Board of Directors Complete our <a href=\"https://associationapps.wufoo.com/forms/q6vzn9a08s3d65/\" class=\"text-white\">form</a>",
           "_styles": {
             ".panel-body": {
               "padding": "15px"
@@ -2092,6 +2308,9 @@
             "P": {
               "color": "#ff0000",
               "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#ff0000"
             }
           },
           "alias": "accordion",
