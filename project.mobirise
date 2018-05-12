@@ -1700,65 +1700,6 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            },
-            ".mbr-text DIV": {
-              "color": "#ffffff"
-            },
-            ".mbr-text B": {
-              "color": "#ffffff"
-            },
-            ".mbr-text P": {
-              "text-align": "left",
-              "color": "#ffffff"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>Taken Directly From The Log of The Captain's Mate:</b></p><p><b>\n</b></p><div><b>\n</b></div><div><b>Good afternoon from beautiful Cozumel Mexico....we have had such an incredible cruise so far. We have been to the Grand Cayman Islands, Roatan Honduras, Belize Cemtral America &amp; today Cozumel...We have made some awesome new friends on the ship, eaten way too much great food &amp; seen some amazing shows. For all you cruisers out there that know anything about the \"Love &amp; Marriage show\" Raiford &amp; I got to be 1 of the 3 couples chosen to go on stage because we were the longest married couple in the auditorium that night. I have never been so embarrassed &amp; had so much fun at the same time in my entire life. We are now celebrities, everyone on the boat knows us by name, but they also know everything about us from our most intimate secrets. When you're married to Raiford Hall you might as well just roll with the flow....need I say more? We will be home on Sat., if I don't kill my husband first, with many wonderful stories to tell. </b></div><div><b><br></b></div><div><b>Bye for now,&nbsp;</b></div><div><b style=\"font-size: 1.2rem;\">Raiford's Mate</b><br></div><div><br></div><p></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qRQyyiOiS0",
-          "_anchor": "content1-24",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:6px;",
-          "hrFullWidth": "min-width:100%;",
-          "hrWidth": "width:100%;",
-          "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:6px;",
-          "_params": {
-            "hrColor": "#ff0000",
-            "hrThickness": "6",
-            "hrFullWidth": true,
-            "hrWidth": 100,
-            "hrStyleSolid": true,
-            "hrStyleDotted": false,
-            "hrStyleDashed": false,
-            "hrPaddingBlock": "0",
-            "bgColor": "#000080"
-          },
-          "_styles": {
-            "hr": {
-              "margin": "0"
-            }
-          },
-          "alias": "hrblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "hrblock-block",
-          "_anchor": "hrblock-block-1g"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
             ".mbr-slider .carousel-control": {
               "background": "#1b1b1b"
             },
@@ -1946,6 +1887,65 @@
             ]
           },
           "_anchor": "gallery2-2c"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text DIV": {
+              "color": "#ffffff"
+            },
+            ".mbr-text B": {
+              "color": "#ffffff"
+            },
+            ".mbr-text P": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>Taken Directly From The Log of The Captain's Mate:</b></p><p><b>\n</b></p><div><b>\n</b></div><div><b>Good afternoon from beautiful Cozumel Mexico....we have had such an incredible cruise so far. We have been to the Grand Cayman Islands, Roatan Honduras, Belize Cemtral America &amp; today Cozumel...We have made some awesome new friends on the ship, eaten way too much great food &amp; seen some amazing shows. For all you cruisers out there that know anything about the \"Love &amp; Marriage show\" Raiford &amp; I got to be 1 of the 3 couples chosen to go on stage because we were the longest married couple in the auditorium that night. I have never been so embarrassed &amp; had so much fun at the same time in my entire life. We are now celebrities, everyone on the boat knows us by name, but they also know everything about us from our most intimate secrets. When you're married to Raiford Hall you might as well just roll with the flow....need I say more? We will be home on Sat., if I don't kill my husband first, with many wonderful stories to tell. </b></div><div><b><br></b></div><div><b>Bye for now,&nbsp;</b></div><div><b style=\"font-size: 1.2rem;\">Raiford's Mate</b><br></div><div><br></div><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qRQyyiOiS0",
+          "_anchor": "content1-24",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:6px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:6px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": "6",
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#000080"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-1g"
         },
         {
           "_styles": {
