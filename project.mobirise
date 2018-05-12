@@ -921,9 +921,9 @@
                 "active": false
               },
               {
-                "tags": "On Board",
+                "tags": "On Shore",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
+                "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/20170410-110114-1205x678.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/20170410-110114-1205x678-572x340.jpg",
@@ -931,7 +931,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -957,7 +957,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ]
           }
