@@ -1960,6 +1960,65 @@ body {
   padding-bottom: 0px;
   background-color: #000080;
 }
+#hrblock-block-2a hr {
+  margin: 0;
+}
+.cid-qRQyyiOiS0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000080;
+}
+.cid-qRQyyiOiS0 .mbr-text,
+.cid-qRQyyiOiS0 blockquote {
+  color: #767676;
+}
+.cid-qRQyyiOiS0 .mbr-text DIV {
+  color: #ffffff;
+}
+.cid-qRQyyiOiS0 .mbr-text B {
+  color: #ffffff;
+}
+.cid-qRQyyiOiS0 .mbr-text P {
+  text-align: left;
+  color: #ffffff;
+}
+#hrblock-block-1g hr {
+  margin: 0;
+}
+.cid-qRQN6JMRZ2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000080;
+}
+.cid-qRQN6JMRZ2 .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-qRQN6JMRZ2 H2 {
+  color: #ffffff;
+}
+#hrblock-block-o hr {
+  margin: 0;
+}
+.cid-qRQBDxYAMk {
+  background: #000080;
+}
+.cid-qRQBDxYAMk .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-qRQBDxYAMk figcaption {
+  position: relative;
+}
+.cid-qRQBDxYAMk figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-qRQBDxYAMk .image-block {
+    width: 100% !important;
+  }
+}
 .cid-qRS0ahhDSW {
   padding-top: 0px;
   padding-bottom: 15px;
@@ -2021,65 +2080,6 @@ body {
   opacity: 0.1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
-}
-#hrblock-block-2a hr {
-  margin: 0;
-}
-.cid-qRQyyiOiS0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #000080;
-}
-.cid-qRQyyiOiS0 .mbr-text,
-.cid-qRQyyiOiS0 blockquote {
-  color: #767676;
-}
-.cid-qRQyyiOiS0 .mbr-text DIV {
-  color: #ffffff;
-}
-.cid-qRQyyiOiS0 .mbr-text B {
-  color: #ffffff;
-}
-.cid-qRQyyiOiS0 .mbr-text P {
-  text-align: left;
-  color: #ffffff;
-}
-#hrblock-block-1g hr {
-  margin: 0;
-}
-.cid-qRQN6JMRZ2 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #000080;
-}
-.cid-qRQN6JMRZ2 .mbr-section-subtitle {
-  color: #ffffff;
-}
-.cid-qRQN6JMRZ2 H2 {
-  color: #ffffff;
-}
-#hrblock-block-o hr {
-  margin: 0;
-}
-.cid-qRQBDxYAMk {
-  background: #000080;
-}
-.cid-qRQBDxYAMk .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-qRQBDxYAMk figcaption {
-  position: relative;
-}
-.cid-qRQBDxYAMk figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-qRQBDxYAMk .image-block {
-    width: 100% !important;
-  }
 }
 #hrblock-block-25 hr {
   margin: 0;
