@@ -10,7 +10,7 @@
         "secondaryColor": "#ff0000",
         "successColor": "#ff0000",
         "infoColor": "#82786E",
-        "warningColor": "#008000",
+        "warningColor": "#ffffff",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Pacifico",
@@ -20,25 +20,25 @@
         "display5Font": "Bree Serif",
         "display5Size": "1",
         "display7Font": "Bree Serif",
-        "display7Size": "1",
+        "display7Size": ".75",
         "display4Font": "PT Sans Narrow",
-        "display4Size": 1,
-        "isRoundedButtons": false,
+        "display4Size": ".75",
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#554346",
-        "#2c55fd",
-        "#6581f3",
-        "#1f98aa",
         "#000000",
         "#ff0000",
-        "#000080"
+        "#80003e",
+        "#000080",
+        "#4040ff",
+        "#554346",
+        "#2c55fd"
       ]
     },
     "versionFirst": "4.7.1",
-    "uniqCompNum": 90,
+    "uniqCompNum": 98,
     "versionPublish": "4.7.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -97,21 +97,21 @@
         },
         {
           "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:4px;",
+          "hrThickness": "border-top-width:8px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:20px; padding-top:20px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:4px;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
           "_params": {
             "hrColor": "#ff0000",
-            "hrThickness": "4",
+            "hrThickness": "8",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
             "hrStyleDotted": false,
             "hrStyleDashed": false,
-            "hrPaddingBlock": "20",
+            "hrPaddingBlock": "0",
             "bgColor": "#000080"
           },
           "_styles": {
@@ -593,7 +593,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff0000\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2c55fd\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://greatcommunities.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/bulldog-1.gif\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\">Sail-Away With Linda &amp; Raiford<br></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content8-u\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbrib-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Grand <br>Caymans</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-x\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Roatan Honduras</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-10\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-target mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Belize</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Cozumel</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>Sea Days &amp; Sea Nights &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff0000\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2c55fd\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://greatcommunities.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/bulldog-1.gif\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\">Sail-Away With Linda &amp; Raiford<br></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content8-u\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbrib-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Grand <br>Caymans</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-x\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Roatan Honduras</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-10\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-target mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Belize</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content1-24\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Cozumel</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>Sea Days &amp; Sea Nights &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qP5ZnV4HOn",
           "_anchor": "menu1-1",
           "_protectedParams": [],
@@ -603,15 +603,15 @@
         },
         {
           "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:4px;",
+          "hrThickness": "border-top-width:8px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
           "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:4px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
           "_params": {
             "hrColor": "#ff0000",
-            "hrThickness": "4",
+            "hrThickness": "8",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
@@ -670,7 +670,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#content8-u\">Cayman Islands</a> <a class=\"btn btn-success\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px; color: rgb(255, 255, 255);\"></span>Back</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"#top\">Cayman Islands Click For Home<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qPS2RGpvRU",
           "_anchor": "content8-u",
           "_protectedParams": [],
@@ -1000,7 +1000,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"index.html#content8-x\">Roatan Honduras</a> <a class=\"btn btn-secondary\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px; color: rgb(255, 255, 255);\"></span>HOME</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"#top\">Roatan Honduras Click For Home</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content8-x",
           "_isUserblock": true,
           "_cid": "qPZOnaRJgU",
@@ -1633,21 +1633,21 @@
         },
         {
           "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:6px;",
+          "hrThickness": "border-top-width:8px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:6px;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
           "_params": {
             "hrColor": "#ff0000",
-            "hrThickness": "6",
+            "hrThickness": "8",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
             "hrStyleDotted": false,
             "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
+            "hrPaddingBlock": "0",
             "bgColor": "#000080"
           },
           "_styles": {
@@ -1669,7 +1669,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"index.html#content8-10\">Belize Central America</a>\n                    <a class=\"btn btn-success\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px; color: rgb(255, 255, 255);\"></span>Home</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"#top\">Belize Central America Click For Home</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qQ5qsHoN40",
           "_anchor": "content8-10",
           "_protectedParams": [],
@@ -1941,7 +1941,7 @@
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
           "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
           "_params": {
             "hrColor": "#ff0000",
@@ -1951,7 +1951,7 @@
             "hrStyleSolid": true,
             "hrStyleDotted": false,
             "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
+            "hrPaddingBlock": "0",
             "bgColor": "#000080"
           },
           "_styles": {
@@ -1996,15 +1996,46 @@
         },
         {
           "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:6px;",
+          "hrThickness": "border-top-width:0px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
           "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:6px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:0px;",
           "_params": {
             "hrColor": "#ff0000",
-            "hrThickness": "6",
+            "hrThickness": "0",
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#ff0000"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-1g"
+        },
+        {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:8px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": "8",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
@@ -2023,74 +2054,7 @@
             "Extension"
           ],
           "_name": "hrblock-block",
-          "_anchor": "hrblock-block-1g"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor"
-          },
-          "_name": "content8",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"https://mobirise.com\">Cozumel</a>\n                    <a class=\"btn btn-success\" href=\"https://mobirise.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 15px; color: rgb(255, 255, 255);\"></span>Home</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qRTcmXpIhO",
-          "_anchor": "content8-2g",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#ffffff"
-            },
-            "H2": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Just Love These Sea Days!</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Some day I'm going to take a Cruise with nothing but Sea Days.!</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qRQN6JMRZ2",
-          "_anchor": "content4-29",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "hrColor": "border-color:#000080;",
-          "hrThickness": "border-top-width:3px;",
-          "hrFullWidth": "min-width:100%;",
-          "hrWidth": "width:100%;",
-          "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#000080;border-style:solid;border-top-width:3px;",
-          "_params": {
-            "hrColor": "#000080",
-            "hrThickness": 3,
-            "hrFullWidth": true,
-            "hrWidth": 100,
-            "hrStyleSolid": true,
-            "hrStyleDotted": false,
-            "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
-            "bgColor": "#000080"
-          },
-          "_styles": {
-            "hr": {
-              "margin": "0"
-            }
-          },
-          "alias": "hrblock",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "hrblock-block",
-          "_anchor": "hrblock-block-o"
+          "_anchor": "hrblock-block-2o"
         },
         {
           "_styles": {
@@ -2162,7 +2126,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text=\"\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000080\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "qRTewnW7a2",
           "_anchor": "gallery1-2h",
           "_protectedParams": [
@@ -2286,6 +2250,58 @@
           }
         },
         {
+          "hrColor": "border-color:#ff0000;",
+          "hrThickness": "border-top-width:8px;",
+          "hrFullWidth": "min-width:100%;",
+          "hrWidth": "width:100%;",
+          "hrStyle": "border-style:solid;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
+          "_params": {
+            "hrColor": "#ff0000",
+            "hrThickness": "8",
+            "hrFullWidth": true,
+            "hrWidth": 100,
+            "hrStyleSolid": true,
+            "hrStyleDotted": false,
+            "hrStyleDashed": false,
+            "hrPaddingBlock": "0",
+            "bgColor": "#000080"
+          },
+          "_styles": {
+            "hr": {
+              "margin": "0"
+            }
+          },
+          "alias": "hrblock",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "hrblock-block",
+          "_anchor": "hrblock-block-2l"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            "H2": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Just Love These Sea Days!</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Some day I'm going to take a Cruise with nothing but Sea Days.!</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-success\" href=\"https://mobirise.com\">SEA DAYS &amp; SEA NIGHTSE</a>\n                    <a class=\"btn btn-success\" href=\"https://mobirise.com\">SING ALONG WITH ARTIE<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qRQN6JMRZ2",
+          "_anchor": "content4-29",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_styles": {
             "& when (@fullWidth = false)": {
               "padding-top": "(@paddingTop * 15px)",
@@ -2325,23 +2341,70 @@
           "_params": {}
         },
         {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content8",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000080\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"assets/files/20170412_190602.mp3.mp4\">CAN'T FORGET THOSE SEA NIGHTS<br><br>CLICK TO SING ALONG WITH ARTIE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content8-2p",
+          "_isUserblock": true,
+          "_cid": "qSBjPkUKo8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @color2, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                ".mbr-section-btn": {
+                  "text-align": "right"
+                }
+              }
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
+            }
+          },
+          "_name": "info2",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ff0000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000080\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#25aab2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success\" href=\"#top\"><span class=\"socicon socicon-zynga mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>\n                    Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"#top\" class=\"text-warning\"> &nbsp;HOME </a>&nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>brought to you by <span style=\"font-weight: normal;\">s</span><a href=\"http://smartwebapp.solutions\" class=\"text-warning\">martwebapp.solutions</a></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-4\">© Copyright 2018 by Raiford Hall's Smart WebApp Solutions - All Rights Reserved</h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qSACo0f1mx",
+          "_anchor": "info2-2m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "hrColor": "border-color:#ff0000;",
-          "hrThickness": "border-top-width:8px;",
+          "hrThickness": "border-top-width:0px;",
           "hrFullWidth": "min-width:100%;",
           "hrWidth": "width:100%;",
           "hrStyle": "border-style:solid;",
-          "hrPaddingBlock": "padding-bottom:10px; padding-top:10px;",
-          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:8px;",
+          "hrPaddingBlock": "padding-bottom:0px; padding-top:0px;",
+          "hrDrawStyle": "min-width:100%;width:100%;border-color:#ff0000;border-style:solid;border-top-width:0px;",
           "_params": {
             "hrColor": "#ff0000",
-            "hrThickness": "8",
+            "hrThickness": "0",
             "hrFullWidth": true,
             "hrWidth": 100,
             "hrStyleSolid": true,
             "hrStyleDotted": false,
             "hrStyleDashed": false,
-            "hrPaddingBlock": "10",
-            "bgColor": "#000080"
+            "hrPaddingBlock": "0",
+            "bgColor": "#ff0000"
           },
           "_styles": {
             "hr": {
@@ -2353,7 +2416,7 @@
             "Extension"
           ],
           "_name": "hrblock-block",
-          "_anchor": "hrblock-block-2e"
+          "_anchor": "hrblock-block-2j"
         }
       ]
     },
@@ -2761,7 +2824,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff0000\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2c55fd\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://greatcommunities.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/bulldog-1.gif\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\">Sail-Away With Linda &amp; Raiford<br></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content8-u\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbrib-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Grand <br>Caymans</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-x\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Roatan Honduras</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-10\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-target mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Belize</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Cozumel</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>Sea Days &amp; Sea Nights &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#ff0000\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#2c55fd\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://greatcommunities.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/bulldog-1.gif\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"index.html\">Sail-Away With Linda &amp; Raiford<br></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html#content8-u\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbrib-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Grand <br>Caymans</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-x\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-flag mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Roatan Honduras</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content8-10\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-target mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Belize</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content1-24\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>\n                        Cozumel</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 40px; color: rgb(255, 0, 0);\"></span>Sea Days &amp; Sea Nights &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a>\n            </div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qP5ZnV4HOn",
           "_anchor": "menu1-c",
           "_protectedParams": [],
